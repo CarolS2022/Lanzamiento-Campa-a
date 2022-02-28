@@ -1,0 +1,25 @@
+header nav {
+  flex: 0 0 80%;
+}
+
+
+header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px
+  transition: 0.3s;
+}
+header a:hover {
+  color: rgba(255,247,0,1.00);
+}
+
+
+
+background-image: url(../img/home/banner-principal.jpg);.

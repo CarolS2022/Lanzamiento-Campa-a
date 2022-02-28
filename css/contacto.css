@@ -1,0 +1,108 @@
+body {
+    background-color: #000;
+     font-family: 'Oswald', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+} 
+
+
+header #logo {
+    display: flex;
+  
+}
+
+header nav {
+    
+      flex: 0 0 80%;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;    
+  justify-content: space-around;
+}
+
+header a {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 1px 10px;
+  display: block;
+  
+}
+
+h2 {
+  color: #fff;
+}
+main {
+  width: 100%;
+  background-image: url(../img/contacto/contacto.jpg);
+  padding: 20% 2%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#main_todo {
+  max-width: 50%;
+  color: #fff;
+  text-align: center;
+}
+#main_todo #main_titulo {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+}
+#main_todo p {
+  font-size: 20px;
+  line-height: 26px;
+}
+#map {
+  text-align: center
+}
+iframe {
+  width: 100%;
+}
+
+footer {
+  background: #000000;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+footer h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  line-height: 31px;
+}
+
+footer hr {
+  width: 10%;
+  background-color: rgba(255,247,0,1.00);
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
